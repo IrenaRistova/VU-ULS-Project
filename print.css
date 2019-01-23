@@ -1,0 +1,93 @@
+@media print {
+	#shopName > a {
+		font-size: 0px;
+	}
+
+	nav {
+		width: 0%;
+		height: 0%;
+	}
+
+	header {
+		width: 0%;
+		height: 0%;
+		margin-bottom: -200px;
+	}
+
+	#logo {
+		width: 0%;
+		height: 0%;
+	}
+
+	#mainTitle {
+		margin-top: -200px;
+		color: black;
+	}
+
+	#mainTitle > h2 {
+		font-family: "Kiona";
+		font-size: 50px;
+		margin-bottom: -200px;
+	}
+
+	caption {
+		font-family: "Kiona";
+		margin-top: -400px;
+		color: black;
+		border: 0px;
+	}
+	
+	p {
+		orphans: 3;
+		widows: 3;
+	}
+
+	table {
+		margin-top: 400px;
+	}
+	
+	dl {
+		float: left;
+	}
+
+	h1, h2, h3 {
+		page-break-after: avoid;
+	}
+
+	dd.subtitle {
+		width: 2480px;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+
+	dd.col1 {
+		margin-left: 0px;
+	}
+
+	dd.col2 {
+		margin-left: 250px;
+	}
+
+	dd.col3 {
+		margin-left: 500px;
+	}
+
+	dd.col4 {
+		margin-left: 750px;
+	}
+
+	dd.reset {
+		margin-top: -320px;
+	}
+
+	footer {
+		height: 0%;
+		margin-top: 5px;
+	}
+
+	#copyright {
+		font-size: 12px;
+		text-align: center;
+		vertical-align: bottom;
+	}
+}

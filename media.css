@@ -1,0 +1,351 @@
+
+@media screen and (max-width: 1000px) {
+	#logo {
+		width: 400px;
+		height: 250px;
+	}
+	
+	img {
+		width: 80%;
+		height: 80%;
+	}
+
+	table {
+		width: 95%;
+		border-spacing: 0px;
+	}
+
+	th, td {
+		align-items: center;
+		display: inline-block;
+		width: 20%;
+		font-size: 12px;
+	}
+
+	input {
+		display: table-cell;
+		font-size: 12px;
+		width: 90%;
+		clear: both;
+		margin-top: 5px;
+	}
+
+	figcaption {
+		display: table-cell;
+		font-size: 12px;
+		width: 50%;
+	}
+
+	#productsList {
+		margin: auto;
+		width: 80%;
+		font-family: Kiona;
+		margin-bottom: 50px;
+	}
+
+	dd.subtitle {
+		width: 800px;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+
+	dd.col1 {
+		margin-left: 0px;
+	}
+
+	dd.col2 {
+		margin-left: 25%;
+	}
+
+	dd.col3 {
+		margin-left: 50%;
+	}
+
+	dd.col4 {
+		margin-left: 75%;
+	}
+
+	dd.reset {
+		margin-top: -255px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#shopName > a {
+		display: none;
+	}
+
+	#shopNameAbbr > a {
+		display: table-cell;
+	}
+
+	#title {
+		font-size: 25px;
+	}
+
+	nav li {
+		font-size: 15px;
+	}
+
+	caption {
+		font-size: 25px;
+		width: 350px;
+		height: 40px;
+	}
+
+	#logo {
+		width: 400px;
+		height: 250px;
+	}
+	
+	img {
+		width: 80%;
+		height: 80%;
+	}
+
+	table {
+		width: 95%;
+		border-spacing: 0px;
+	}
+
+	th, td {
+		align-items: center;
+		display: inline-block;
+		width: 20%;
+		font-size: 12px;
+	}
+
+	input {
+		display: table-cell;
+		font-size: 12px;
+		width: 90%;
+		clear: both;
+		margin-top: 5px;
+	}
+
+	figcaption {
+		display: table-cell;
+		font-size: 12px;
+		width: 50%;
+	}
+
+	#productsList {
+		margin: auto;
+		width: 95%;
+		font-family: Kiona;
+		margin-bottom: 50px;
+	}
+
+	dd.subtitle {
+		width: 700px;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+
+	dd.col1 {
+		margin-left: 0px;
+	}
+
+	dd.col2 {
+		margin-left: 25%;
+	}
+
+	dd.col3 {
+		margin-left: 50%;
+	}
+
+	dd.col4 {
+		margin-left: 75%;
+	}
+
+	dd.reset {
+		margin-top: -255px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#productsList {
+		margin: auto;
+		width: 98%;
+		font-family: Kiona;
+		margin-bottom: 50px;
+	}
+
+	nav {
+		width: 700px;
+	}
+
+	#navContainer {
+		width: 80%;
+		margin: 0px auto;
+	}
+
+	dd.subtitle {
+		width: 95%;
+		margin-left: 0px;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#shopName > a {
+		display: none;
+	}
+
+	#shopNameAbbr > a {
+		display: table-cell;
+	}
+
+	header {
+		background-color: #424242;
+		background-image: url("https://i.imgur.com/xrcVA2o.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;					/* Allow content to move over background  */
+		box-shadow: inset 0px -55px 65px -10px white; 	/* Add inset dropshadow */
+		height: 50%;
+		width: 100%;
+		text-align: center;
+		display: table;
+	}
+
+	#title {
+		font-size: 10px;
+	}
+
+	#mainTitle {
+		background-image: -webkit-radial-gradient(ellipse, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0) 70%);
+		height: 210px;
+		width: 50%;
+		margin: 0px auto;
+		padding: 20px 0px;
+		display: table;
+	}
+
+	#mainTitle > h2 {
+		font-family: Inquisition;
+		font-size: 70px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	#navContainer {
+		width: 90%;
+		margin: 0px auto;
+	}
+
+	#mainMenu > li {
+		padding: 0px 3px;
+		display: table-cell;
+		vertical-align: middle;
+		font-size: 12px;
+	}
+
+	img {
+		width: 60px;
+		height: 60px;
+	}
+
+	table {
+		width: 95%;
+		border-spacing: 0px;
+	}
+
+	th, td {
+		align-items: center;
+		display: inline-block;
+		width: 70px;
+		font-size: 7px;
+	}
+
+	input {
+		display: table-cell;
+		font-size: 7px;
+		width: 80%;
+		clear: both;
+
+	}
+
+	figcaption {
+		font-size: 8px;
+		font-style: italic;
+	}
+
+	nav {
+		background-color: #333745;
+		height: 50px;
+		width: 400px;
+		position: fixed;
+		z-index: 999;
+		border-bottom: 2px solid #ea2e49;
+		opacity: 0.8;
+		filter: alpha(opacity=80);
+	}
+
+	#logo {
+		width: 300px;
+		height: 180px;
+	}
+
+	nav li {
+		font-size: 15px;
+	}
+
+	caption {
+		font-size: 18px;
+		width: 200px;
+		height: 28px;
+	}
+
+	#productsList {
+		margin: auto;
+		width: 95%;
+		font-family: Kiona;
+		margin-bottom: 50px;
+	}
+
+	#productsList > dt {
+		font-size: 10px;
+		margin-top: 20px;
+		font-weight: bold;
+	}
+
+	#productsList > dd {
+		font-size: 7px;
+		text-indent: 3px;
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	dd.subtitle {
+		width: 350px;
+		margin-left: 0px;
+		margin-bottom: 30px;
+	}
+
+	dd.col1 {
+		margin-left: 0px;
+	}
+
+	dd.col2 {
+		margin-left: 100px;
+	}
+
+	dd.col3 {
+		margin-left: 200px;
+	}
+
+	dd.col4 {
+		margin-left: 300px;
+	}
+
+	dd.reset {
+		margin-top: -71px;
+	}
+
+	.button {
+		padding: 3px 12px;
+		font-size: 7px;
+	}
+}
